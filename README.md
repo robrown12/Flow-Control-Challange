@@ -5,10 +5,10 @@ public class NumberSumCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // Input two numbers with a difference of at least 200
-        System.out.print("Enter the first number: ");
+        System.out.print("Your first number: ");
         int num1 = scanner.nextInt();
 
-        System.out.print("Enter the second number: ");
+        System.out.print("Your second number: ");
         int num2 = scanner.nextInt();
 
         // Check if the difference is less than 200
@@ -23,7 +23,7 @@ public class NumberSumCalculator {
         int sumNotEvenNotDivisibleBy5 = 0;
 
         // Simulate a switch statement to select the appropriate loop
-        System.out.print("Enter loop type (for, while, do-while): ");
+        System.out.print("Enter loop type: ");
         String loopType = scanner.next().toLowerCase();
 
         switch (loopType) {
